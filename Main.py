@@ -20,7 +20,7 @@ while chances > 0:
         print(f"Your current score is: {score}")  # Show current score
         break  # Exit the loop since the guess was correct
     else:
-        print("Wrong guess.")
+        print("Wrong guess!")
         chances -= 1  # Decrement chances
         print(f"Chances left: {chances}")
 
