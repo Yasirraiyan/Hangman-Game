@@ -7,7 +7,7 @@ chosen_word = random.choice(words)
 score = 0
 chances = 3
 
-print("Welcome to the guessing game!")
+print("Welcome to the Hangman game!")
 
 # Game loop for guessing
 while chances > 0:
